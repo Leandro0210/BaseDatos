@@ -16,14 +16,14 @@ string ca = "Add Fecha Evento";
         string fmmd = "Exit";
    string com;
    while(true) {
-     
+    
      cout<<"Ingrese un comando: ";
     getline(cin,com);
     if(com == ca || com == ka) {
         add(BD);
          }
         else if(com == ce || com == ke) {
-       //deleted_fecha_evento(BD);
+       deleted_fecha_evento(BD);
             }
             else if(com == ci || com == ki) {
            // deleted_fecha(BD);    
@@ -34,7 +34,7 @@ string ca = "Add Fecha Evento";
                    else if(com == cu || com == ku) {
                        print(BD);        }  
                        else if(com == fdm || com == fmmd) {
-                     //   salir(com);
+                       salir(com);
                        }
               else {
                   cout<<"Unknown command: "<<com<<endl;
