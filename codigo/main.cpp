@@ -29,7 +29,7 @@ string ca = "Add Fecha Evento";
             deleted_fecha(BD);    
            }
                  else if(com == co || com == ko) {
-              //  find(BD);
+                find(BD);
               }
                    else if(com == cu || com == ku) {
                        print(BD);        }  
