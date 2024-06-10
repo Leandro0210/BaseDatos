@@ -37,7 +37,7 @@ Se implementaron seis funciones, mencionadas a continuacion:
 
 1. **Print:** Imprime todos los eventos con sus fechas de todo la BD, por orden de fechas. 
 
-1. **Exit:** Cuando el usuario quiera cerrar el programa, esta funcion lo hara. 
+1. **Salir:** Cuando el usuario quiera cerrar el programa, esta funcion lo hara. 
 
 
 *Herramientas utilizadas* 
