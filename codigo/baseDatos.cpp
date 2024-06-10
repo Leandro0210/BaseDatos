@@ -100,19 +100,23 @@ void deleted_fecha_evento(map<string, set<string>>& BD) {
         cin.ignore();
          cout<<"Introduce el evento: ";
     getline(cin,eve.nom);
-      for(auto& x : BD) {
-          if(p == x.first) {
+     for(auto& x : BD) {
+          if(f == x.first) {
               for(auto& y : x.second) {
                   if(eve.nom == y) {
                      x.second.erase(eve.nom);
             cout<<"Deleted successfully"<<endl;
               break;
-                  } else {
+                  } else if(eve.nom != y) {
                       cout<<"Event not found"<<endl;
+                      break;
                   }
                     } 
-          }
-          
+          }  else if(f != x.first) {
+                      cout<<"Event not found"<<endl;
+                      break;
+                  }
+         
           } 
          
 
