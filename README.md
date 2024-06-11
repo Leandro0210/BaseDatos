@@ -22,7 +22,7 @@ Las bases de datos son sistemas organizados de recopilación y almacenamiento de
 
 La base de datos que usa Google es: Firebase Realtime Database es una base de datos alojada en la nube. Los datos se almacenan en formato JSON y se sincronizan en tiempo real con cada cliente conectado. Comparandolo con facebook que usa: Bases de Datos NoSQL: Para manejar grandes cantidades de datos, Facebook utiliza bases de datos NoSQL como Cassandra y RocksDB, que ofrecen una gran escalabilidad y rendimiento. La razon por la que mi base de datos ha sido creada es pa beneficiar y sacar el maximo provecho a esta empresa, que podra guardar una gran cantidad de informacion de forma rapida y segura.
 
-*Descripcion de funciones *
+*Descripcion de funciones*
 
 En el codigo, se usa una estructura que nos ayuda a almacenar las fechas de cada uno de los eventos. 
 Se implementaron seis funciones, mencionadas a continuacion:
@@ -41,19 +41,19 @@ Se implementaron seis funciones, mencionadas a continuacion:
 
    *Estructura del codigo*
    
-   --Diagramas de flujo
+* Diagramas de flujo 
    
-   --Codigo
+* Codigo 
    
-   ----BaseDatos.cpp
+* BaseDatos.cpp 
    
-   ----BaseDatos.h
+* BaseDatos.h 
    
-   ----main.cpp
+* main.cpp 
    
-   ----a.exe
+* a.exe 
    
-   --README.md
+* README.md 
 
 
 *Herramientas utilizadas* 
