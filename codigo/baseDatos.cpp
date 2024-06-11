@@ -101,7 +101,7 @@ void deleted_fecha_evento(map<string, set<string>>& BD) {
          cout<<"Introduce el evento: ";
     getline(cin,eve.nom);
      for(auto& x : BD) {
-          if(f == x.first) {
+          if(p == x.first) {
               for(auto& y : x.second) {
                   if(eve.nom == y) {
                      x.second.erase(eve.nom);
@@ -112,7 +112,7 @@ void deleted_fecha_evento(map<string, set<string>>& BD) {
                       break;
                   }
                     } 
-          }  else if(f != x.first) {
+          }  else if(p != x.first) {
                       cout<<"Event not found"<<endl;
                       break;
                   }
