@@ -40,12 +40,19 @@ Se implementaron seis funciones, mencionadas a continuacion:
 1. **Salir:** Cuando el usuario quiera cerrar el programa, esta funcion lo hara.
 
    *Estructura del codigo*
+   
    --Diagramas de flujo
+   
    --Codigo
+   
    ----BaseDatos.cpp
+   
    ----BaseDatos.h
+   
    ----main.cpp
+   
    ----a.exe
+   
    --README.md
 
 
